@@ -1,3 +1,14 @@
+'''
+This problem required taking in a string of characters in the set '(){}[]'
+And returning a boolean of whether the parentheses are valid
+Ex. () - Valid
+Ex. (] - Invalid
+Ex. ] - Invalid
+Ex. ([]) - Valid
+Ex. ([)] - Invalid
+'''
+
+
 class Solution:
     def isValid(self, s: str) -> bool:
 
